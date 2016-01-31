@@ -15,9 +15,9 @@ key 60    SOFT_RIGHT        WAKE
 key 107   ENDCALL           WAKE_DROPPED
 key 62    ENDCALL           WAKE_DROPPED
 key 229   MENU              WAKE_DROPPED
-key 139   MENU              WAKE_DROPPED
+key 139   RECENTAPPS        WAKE_DROPPED
 key 59    MENU              WAKE_DROPPED
-key 127   SEARCH            WAKE_DROPPED
+key 127   MENU            WAKE_DROPPED
 key 217   SEARCH            WAKE_DROPPED
 key 228   POUND
 key 227   STAR
