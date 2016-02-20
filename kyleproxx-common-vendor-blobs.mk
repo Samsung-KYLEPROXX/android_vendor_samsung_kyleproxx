@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V01006.so:/system/lib/lib_SamsungRec_V01006.so \
     $(LOCAL_PATH)/proprietary/lib/lib_Samsung_Resampler.so:/system/lib/lib_Samsung_Resampler.so \
     $(LOCAL_PATH)/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:/system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
-    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V01006.so:/system/lib/lib_SamsungRec_V01006.so \
     $(LOCAL_PATH)/proprietary/lib/libaacdecoderwrapper.so:/system/lib/libaacdecoderwrapper.so \
     $(LOCAL_PATH)/proprietary/lib/libasound.so:/system/lib/libasound.so \
     $(LOCAL_PATH)/proprietary/lib/libat.so:/system/lib/libat.so \
