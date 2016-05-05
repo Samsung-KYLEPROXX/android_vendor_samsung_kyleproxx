@@ -98,6 +98,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libVCE_vtq.so:/system/lib/libVCE_vtq.so \
     $(LOCAL_PATH)/proprietary/lib/libVCOS.so:/system/lib/libVCOS.so \
     $(LOCAL_PATH)/proprietary/lib/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so \
+
+$(LOCAL_PATH)/proprietary/lib/libjni_latinimegoogle.so:/system/lib/libjni_unbundled_latinimegoogle.so \
     $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V01006.so:/system/lib/lib_SamsungRec_V01006.so \
     $(LOCAL_PATH)/proprietary/lib/lib_Samsung_Resampler.so:/system/lib/lib_Samsung_Resampler.so \
     $(LOCAL_PATH)/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:/system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
