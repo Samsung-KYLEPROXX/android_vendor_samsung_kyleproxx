@@ -10,6 +10,8 @@
     * /lib/libsamsungRecord.so
     * /lib/libsamsungRecord_ns.so
     * /lib/libsamsungSoundbooster.so
+  * G310HNXXU0APA1:
+    * /bin/lpm
   * S7582XXUAOJ1:
     * /lib/libbrcm_ril_KYLEPRODS.so
     * /lib/libril_KYLEPRODS.so

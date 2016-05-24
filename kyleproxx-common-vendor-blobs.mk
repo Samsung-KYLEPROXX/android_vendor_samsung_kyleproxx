@@ -31,10 +31,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/gps.cer:/system/bin/gps.cer \
     $(LOCAL_PATH)/proprietary/bin/gpslogd:/system/bin/gpslogd \
     $(LOCAL_PATH)/proprietary/bin/immvibed:/system/bin/immvibed \
-    $(LOCAL_PATH)/proprietary/bin/lpmkey:/system/bin/lpmkey \
+    $(LOCAL_PATH)/proprietary/bin/lpm:/system/bin/lpm \
     $(LOCAL_PATH)/proprietary/bin/mfgloader:/system/bin/mfgloader \
     $(LOCAL_PATH)/proprietary/bin/mttlogger:/system/bin/mttlogger \
-    $(LOCAL_PATH)/proprietary/bin/playlpm:/system/bin/playlpm \
     $(LOCAL_PATH)/proprietary/bin/rild:/system/bin/rild \
     $(LOCAL_PATH)/proprietary/bin/sensord:/system/bin/sensord \
     $(LOCAL_PATH)/proprietary/bin/wlandutservice:/system/bin/wlandutservice \
