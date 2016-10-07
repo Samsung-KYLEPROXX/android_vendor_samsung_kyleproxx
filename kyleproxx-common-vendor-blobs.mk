@@ -36,9 +36,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/keylayout/gpio-keys.kl:/system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/proprietary/usr/keylayout/samsung-keypad.kl:/system/usr/keylayout/samsung-keypad.kl
 endif
-endif
-
-ifndef PRODUCT_VERSION_MAJOR
+else
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/keylayout/bcm_keypad_v2.kl:/system/usr/keylayout/bcm_keypad_v2.kl \
     $(LOCAL_PATH)/proprietary/usr/keylayout/gpio-keys.kl:/system/usr/keylayout/gpio-keys.kl \
