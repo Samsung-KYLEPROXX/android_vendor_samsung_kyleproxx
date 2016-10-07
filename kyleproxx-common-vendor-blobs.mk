@@ -24,6 +24,25 @@ else
         $(LOCAL_PATH)/proprietary/lib/libril_KYLEPRO.so:/system/lib/libril.so
 endif
 
+ifdef PRODUCT_VERSION_MAJOR
+ifeq ($(PRODUCT_VERSION_MAJOR),11)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/bcm_keypad_v2-cm11.kl:/system/usr/keylayout/bcm_keypad_v2.kl \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/gpio-keys-cm11.kl:/system/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/samsung-keypad-cm11.kl:/system/usr/keylayout/samsung-keypad.kl
+else
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/bcm_keypad_v2.kl:/system/usr/keylayout/bcm_keypad_v2.kl \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/gpio-keys.kl:/system/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/samsung-keypad.kl:/system/usr/keylayout/samsung-keypad.kl
+endif
+else
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/bcm_keypad_v2.kl:/system/usr/keylayout/bcm_keypad_v2.kl \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/gpio-keys.kl:/system/usr/keylayout/gpio-keys.kl \
+    $(LOCAL_PATH)/proprietary/usr/keylayout/samsung-keypad.kl:/system/usr/keylayout/samsung-keypad.kl
+endif
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/BCM4330B1_002.001.003.0967.1173.hcd:/system/bin/BCM4330B1_002.001.003.0967.1173.hcd \
     $(LOCAL_PATH)/proprietary/bin/bkmgrd:/system/bin/bkmgrd \
@@ -189,7 +208,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/idc/Vendor_0001_Product_0001_Version_0100.idc:/system/usr/idc/Vendor_0001_Product_0001_Version_0100.idc \
     $(LOCAL_PATH)/proprietary/usr/keychars/bcm_keypad_v2.kcm:/system/usr/keychars/bcm_keypad_v2.kcm \
     $(LOCAL_PATH)/proprietary/usr/keylayout/bcm_headset.kl:/system/usr/keylayout/bcm_headset.kl \
-    $(LOCAL_PATH)/proprietary/usr/keylayout/bcm_keypad_v2.kl:/system/usr/keylayout/bcm_keypad_v2.kl \
-    $(LOCAL_PATH)/proprietary/usr/keylayout/gpio-keys.kl:/system/usr/keylayout/gpio-keys.kl \
-    $(LOCAL_PATH)/proprietary/usr/keylayout/samsung-keypad.kl:/system/usr/keylayout/samsung-keypad.kl \
     $(LOCAL_PATH)/proprietary/usr/share/alsa/alsa.conf:/system/usr/share/alsa/alsa.conf
