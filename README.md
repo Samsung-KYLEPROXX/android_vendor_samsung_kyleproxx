@@ -1,18 +1,17 @@
 # Proprietary blob for GT-S758X (kyleproxx)
 
 ### File info:
-  * G310HNXXU0APA1:
-    * /bin/lpm
+  * S7272XXUAOD1: 
     * /lib/hw/audio.primary.hawaii.so
+    * /lib/lib_DNSe_NRSS_ver224c.so
     * /lib/lib_Samsung_Resampler.so
     * /lib/lib_Samsung_SB_AM_for_ICS_v04004.so
-    * /lib/lib_SamsungRec_V03011b.so
-    * /lib/libbcm_hp_filter.so
+    * /lib/lib_SamsungRec_V01006.so
     * /lib/libsamsungRecord.so
+    * /lib/libsamsungRecord_ns.so
     * /lib/libsamsungSoundbooster.so
-    * /lib/libtinyalsa_ext.so
-    * /etc/asound.conf
-    * /usr/share/alsa/alsa.conf
+  * G310HNXXU0APA1:
+    * /bin/lpm
   * S7582XXUAOJ1:
     * /lib/libbrcm_ril_KYLEPRODS.so
     * /lib/libril_KYLEPRODS.so

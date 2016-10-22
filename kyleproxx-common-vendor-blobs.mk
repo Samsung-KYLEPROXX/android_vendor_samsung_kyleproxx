@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/gralloc.hawaii.so:/system/lib/hw/gralloc.hawaii.so \
     $(LOCAL_PATH)/proprietary/lib/hw/hwcomposer.hawaii.so:/system/lib/hw/hwcomposer.hawaii.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.hawaii.so:/system/lib/hw/sensors.hawaii.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_DNSe_NRSS_ver224c.so:/system/lib/lib_DNSe_NRSS_ver224c.so \
     $(LOCAL_PATH)/proprietary/lib/libBrcmOMX_Component.so:/system/lib/libBrcmOMX_Component.so \
     $(LOCAL_PATH)/proprietary/lib/libBrcmOMX_Core.so:/system/lib/libBrcmOMX_Core.so \
     $(LOCAL_PATH)/proprietary/lib/libFraunhoferAAC.so:/system/lib/libFraunhoferAAC.so \
@@ -96,14 +97,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libVCE_vtq.so:/system/lib/libVCE_vtq.so \
     $(LOCAL_PATH)/proprietary/lib/libVCOS.so:/system/lib/libVCOS.so \
     $(LOCAL_PATH)/proprietary/lib/libWVStreamControlAPI_L3.so:/system/lib/libWVStreamControlAPI_L3.so \
-    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V03011b.so:/system/lib/lib_SamsungRec_V03011b.so \
+    $(LOCAL_PATH)/proprietary/lib/lib_SamsungRec_V01006.so:/system/lib/lib_SamsungRec_V01006.so \
     $(LOCAL_PATH)/proprietary/lib/lib_Samsung_Resampler.so:/system/lib/lib_Samsung_Resampler.so \
     $(LOCAL_PATH)/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v04004.so:/system/lib/lib_Samsung_SB_AM_for_ICS_v04004.so \
     $(LOCAL_PATH)/proprietary/lib/libaacdecoderwrapper.so:/system/lib/libaacdecoderwrapper.so \
     $(LOCAL_PATH)/proprietary/lib/libasound.so:/system/lib/libasound.so \
     $(LOCAL_PATH)/proprietary/lib/libat.so:/system/lib/libat.so \
     $(LOCAL_PATH)/proprietary/lib/libat_stubs.so:/system/lib/libat_stubs.so \
-    $(LOCAL_PATH)/proprietary/lib/libbcm_hp_filter.so:/system/lib/libbcm_hp_filter.so \
     $(LOCAL_PATH)/proprietary/lib/libbralloc.so:/system/lib/libbralloc.so \
     $(LOCAL_PATH)/proprietary/lib/libbrcmaacenc.so:/system/lib/libbrcmaacenc.so \
     $(LOCAL_PATH)/proprietary/lib/libbrcmamrnbaridec.so:/system/lib/libbrcmamrnbaridec.so \
@@ -141,6 +141,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsAMRNB.so:/system/lib/libsAMRNB.so \
     $(LOCAL_PATH)/proprietary/lib/libsAMRWB.so:/system/lib/libsAMRWB.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungRecord.so:/system/lib/libsamsungRecord.so \
+    $(LOCAL_PATH)/proprietary/lib/libsamsungRecord_ns.so:/system/lib/libsamsungRecord_ns.so \
     $(LOCAL_PATH)/proprietary/lib/libsamsungSoundbooster.so:/system/lib/libsamsungSoundbooster.so \
     $(LOCAL_PATH)/proprietary/lib/libsavsac.so:/system/lib/libsavsac.so \
     $(LOCAL_PATH)/proprietary/lib/libsavscmn.so:/system/lib/libsavscmn.so \
@@ -153,7 +154,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsoc.so:/system/lib/libsoc.so \
     $(LOCAL_PATH)/proprietary/lib/libsthmb.so:/system/lib/libsthmb.so \
     $(LOCAL_PATH)/proprietary/lib/libtiming.so:/system/lib/libtiming.so \
-    $(LOCAL_PATH)/proprietary/lib/libtinyalsa_ext.so:/system/lib/libtinyalsa_ext.so \
     $(LOCAL_PATH)/proprietary/lib/libuecodec.so:/system/lib/libuecodec.so \
     $(LOCAL_PATH)/proprietary/lib/libuip.so:/system/lib/libuip.so \
     $(LOCAL_PATH)/proprietary/lib/libusb_config.so:/system/lib/libusb_config.so \
@@ -192,4 +192,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/usr/keylayout/bcm_keypad_v2.kl:/system/usr/keylayout/bcm_keypad_v2.kl \
     $(LOCAL_PATH)/proprietary/usr/keylayout/gpio-keys.kl:/system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/proprietary/usr/keylayout/samsung-keypad.kl:/system/usr/keylayout/samsung-keypad.kl \
+    $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so:/system/usr/lib/alsa-lib/libasound_module_pcm_bcmfilter.so \
+    $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:/system/usr/lib/alsa-lib/libbcm_hp_filter.so \
+    $(LOCAL_PATH)/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:/system/usr/lib/alsa-lib/libbcm_test_filter.so \
     $(LOCAL_PATH)/proprietary/usr/share/alsa/alsa.conf:/system/usr/share/alsa/alsa.conf
