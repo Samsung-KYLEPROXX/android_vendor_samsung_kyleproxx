@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libh264_enc_bp.so:/system/lib/libh264_enc_bp.so \
     $(LOCAL_PATH)/proprietary/lib/libhwcodec.so:/system/lib/libhwcodec.so \
     $(LOCAL_PATH)/proprietary/lib/libisp2.so:/system/lib/libisp2.so \
+    $(LOCAL_PATH)/proprietary/lib/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle.so \
     $(LOCAL_PATH)/proprietary/lib/libjpeg_turbo.so:/system/lib/libjpeg_turbo.so \
     $(LOCAL_PATH)/proprietary/lib/libjpega.so:/system/lib/libjpega.so \
     $(LOCAL_PATH)/proprietary/lib/libkeystore_client.so:/system/lib/libkeystore_client.so \
